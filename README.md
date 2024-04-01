@@ -1,7 +1,10 @@
 # DevSecOps Project: Deploy Netflix on Kubernetes.
 
 ## Introduction
-<div align="justify"> DevSecOps Project to setup Netflix clone on AWS using CICD, Security, Monitoring and GitOps. In this project I'm going to create my own Netflix application using DevSecOps practices which will include CI/CD using Jenkins, monitoring using Prometheus and Grafana, security using SonarQube and Trivy. More along with this, we are also going to use Argo CD and Helm to deploy the application in kubernetes.</div>
+<div align="justify"> DevSecOps Project to setup Netflix clone on AWS using CICD, Security, Monitoring and GitOps. In this project I'm going to create my own Netflix application using DevSecOps practices which will include CI/CD using Jenkins, monitoring using Prometheus and Grafana, security using SonarQube and Trivy. More along with this, we are also going to use Argo CD and Helm to deploy the application in kubernetes.</div> <br>
+
+You can view the technical documentation here:(https://github.com/JavierRamirezMoral/DevSecOps-Project-Netflix/blob/main/DOCUMENTACI%C3%93N/JavierRam%C3%ADrezMoral%20DevSecOps%20Project%20-%20Deploy%20Netflix%20on%20Kubernetes.pdf)
+
 
 ## Design
 * We start with creating an E2 instance and deploying our application locally using Docker container. Clone my GitHub repository in the EC2 instance.
