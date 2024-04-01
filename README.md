@@ -7,12 +7,11 @@
 * We start with creating an E2 instance and deploying our application locally using Docker container. Clone my GitHub repository in the EC2 instance.
 * Once the application is running, we are going to integrate security using SonarQube and Trivy.
 * Once it is done manually, we are going to automate this process using a CI/CD tool Jenkins. Is going to automate creation of Docker image which is going to be secured and uploaded on Docker hub.
-* Now once we have this process automated we are going to integrate monitoring using Prometheus and Grafana, this Prometheus and Grafana is going to monitor our EC2 instance as well as Jenkins to check different things in Jenkins like how much is CPU how much is RAM what are some successful jobs what do failed jobs along with this any of the job is failed or success you're also going to get notifications on our email
-using SMTP.
+* <div align="justify">Now once we have this process automated we are going to integrate monitoring using Prometheus and Grafana, this Prometheus and Grafana is going to monitor our EC2 instance as well as Jenkins to check different things in Jenkins like how much is CPU how much is RAM what are some successful jobs what do failed jobs along with this any of the job is failed or success you're also going to get notifications on our email using SMTP.</div>
 * And once we automate this, we are going to deploy the application on kubernetes using Argo CD and we will have monitoring (Prometheus and Grafana) on our kubernetes cluster which is going to be installed through HELM charts. 
 * Once we do this, we are going to have an application like Netflix.
    
-![Alt text](https://github.com/JavierRamirezMoral/DevSecOps-Project-Netflix/assets/101793125/70cdd5ad-751e-4eec-8412-d30c86527e90)
+![Alt text](https://github.com/JavierRamirezMoral/DevSecOps-Project-Netflix/blob/main/DOCUMENTACI%C3%93N/DESIGN%20.png)
 
 
 ## Objectives
